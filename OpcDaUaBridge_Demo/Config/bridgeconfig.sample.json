@@ -1,0 +1,24 @@
+{
+  "Mappings": [
+    {
+      "DaItemId": "Random.Real8",
+      "UaNodeName": "TestDouble",
+      "DataTypeName": "Double"
+    },
+    {
+      "DaItemId": "Random.Int4",
+      "UaNodeName": "TestInt32",
+      "DataTypeName": "Int32"
+    },
+    {
+      "DaItemId": "Bucket Brigade.Boolean",
+      "UaNodeName": "TestBool",
+      "DataTypeName": "Boolean"
+    },
+    {
+      "DaItemId": "Bucket Brigade.String",
+      "UaNodeName": "TestString",
+      "DataTypeName": "String"
+    }
+  ]
+}

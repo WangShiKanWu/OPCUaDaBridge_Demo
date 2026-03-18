@@ -1,0 +1,38 @@
+# Quick Start
+
+## 1. 准备环境
+- 安装 OPC DA Server（推荐：Matrikon Simulation Server）
+- 安装 OPC UA 客户端（Matrikon OPC UA Explorer）
+
+---
+
+## 2. 启动步骤
+
+1. 启动 OPC DA Server  
+2. 进入目录：1_Run/OpcDaUaBridge_v1.0  
+3. 双击运行：OpcDaUaBridge.exe  
+
+---
+
+## 3. 连接 OPC UA
+
+使用 OPC UA 客户端连接：
+
+opc.tcp://localhost:4840/OpcDaUaBridge
+
+---
+
+## 4. 验证结果
+
+浏览：
+
+Objects → Demo
+
+应看到：
+
+- TestDouble
+- TestInt32
+- TestBool
+- TestString
+
+并且数值会实时变化

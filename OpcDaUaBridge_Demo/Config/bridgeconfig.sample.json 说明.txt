@@ -1,0 +1,20 @@
+bridgeconfig.sample.json 说明
+
+1. DaItemId
+   OPC DA Server 中的点位标识，例如：
+   Random.Real8
+
+2. UaNodeName
+   在 OPC UA 客户端中显示的节点名称，例如：
+   TestDouble
+
+3. DataTypeName
+   当前支持：
+   - Double
+   - Int32
+   - Boolean
+   - String
+
+4. 使用方法
+   复制 bridgeconfig.sample.json 一份，改名为 bridgeconfig.json，
+   然后根据实际 OPC DA 点位修改内容。
